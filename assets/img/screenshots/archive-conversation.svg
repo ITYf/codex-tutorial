@@ -1,0 +1,30 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="620" height="760" viewBox="0 0 620 760" role="img" aria-labelledby="title desc">
+  <title id="title">Codex 归档对话示意图</title>
+  <desc id="desc">展示 Codex 左侧菜单和项目对话列表中归档对话按钮的位置。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e6fbff"/><stop offset="1" stop-color="#f4ffd9"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#2f1d23" flood-opacity="0.10"/></filter>
+  </defs>
+  <rect width="620" height="760" rx="24" fill="#fff8f9"/>
+  <rect x="16" y="12" width="520" height="724" rx="18" fill="url(#bg)" filter="url(#shadow)"/>
+  <g font-family="Arial, Microsoft YaHei, sans-serif" fill="#233746">
+    <g font-size="24">
+      <circle cx="32" cy="38" r="10" fill="none" stroke="#233746" stroke-width="2"/><text x="66" y="47">快速对话</text>
+      <circle cx="32" cy="94" r="10" fill="none" stroke="#233746" stroke-width="2"/><line x1="41" y1="103" x2="52" y2="114" stroke="#233746" stroke-width="2"/><text x="66" y="103">搜索</text>
+      <circle cx="25" cy="148" r="4" fill="none" stroke="#233746" stroke-width="2"/><circle cx="44" cy="148" r="4" fill="none" stroke="#233746" stroke-width="2"/><circle cx="25" cy="167" r="4" fill="none" stroke="#233746" stroke-width="2"/><circle cx="44" cy="167" r="4" fill="none" stroke="#233746" stroke-width="2"/><text x="66" y="164">插件</text>
+      <circle cx="32" cy="220" r="11" fill="none" stroke="#233746" stroke-width="2"/><path d="M32 212v10l-6 6" stroke="#233746" stroke-width="2" fill="none"/><text x="66" y="229">自动化</text>
+      <rect x="23" y="274" width="18" height="26" rx="4" fill="none" stroke="#233746" stroke-width="2"/><circle cx="32" cy="295" r="1.8"/><text x="66" y="294">Codex 移动版</text>
+    </g>
+    <text x="18" y="362" font-size="24" fill="#93a5ad">项目</text>
+    <path d="M20 410h25l9 9v21H20z" fill="none" stroke="#60747c" stroke-width="2.4"/><text x="66" y="432" font-size="24" fill="#60747c">Codex使用教程</text>
+    <rect x="2" y="464" width="505" height="58" rx="14" fill="#d7eceb"/><text x="66" y="502" font-size="23" fill="#132536">生成Codex操作手册静态页</text>
+    <rect x="2" y="526" width="505" height="58" rx="14" fill="#cfe7e6"/><text x="66" y="564" font-size="23" fill="#132536">安装并订阅 Codex</text>
+    <path d="M388 541l18-10 7 8-14 14v10h-10z" fill="none" stroke="#66727a" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="430" y="531" width="58" height="58" rx="5" fill="none" stroke="#ff4f67" stroke-width="7"/>
+    <rect x="449" y="550" width="20" height="18" rx="3" fill="none" stroke="#4b555c" stroke-width="3"/><line x1="454" y1="556" x2="464" y2="556" stroke="#4b555c" stroke-width="2.2"/>
+    <rect x="404" y="476" width="124" height="42" rx="18" fill="#fff"/><text x="422" y="504" font-size="22" fill="#233746">归档对话</text>
+    <text x="66" y="628" font-size="23">注册 Gmail</text><text x="414" y="628" font-size="21" fill="#7d8c94">17 小时</text>
+    <path d="M20 692h25l9 9v21H20z" fill="none" stroke="#60747c" stroke-width="2.4"/><text x="66" y="715" font-size="24">CodeX Space</text>
+    <text x="292" y="610" font-size="30" fill="#ff4f67">1、归档对话</text>
+  </g>
+</svg>
