@@ -21,6 +21,7 @@
           <a class="nav-link" data-nav-link href="#overview">速览</a>
           <a class="nav-link" data-nav-link href="#prepare">账号准备</a>
           <a class="nav-link" data-nav-link href="#chatgpt-account">注册与订阅ChatGPT</a>
+          <a class="nav-link" data-nav-link href="#team-rollout">公司/团队落地</a>
           <a class="nav-link" data-nav-link href="#download">下载Codex</a>
           <a class="nav-link" data-nav-link href="#beginner">入门使用</a>
           <a class="nav-link" data-nav-link href="#advanced">进阶使用</a>
@@ -30,6 +31,16 @@
     </div>
   </nav>
 
+  <aside class="floating-toc" aria-label="页面目录">
+    <div class="floating-toc-title">目录</div>
+    <a data-nav-link href="#overview">速览</a>
+    <a data-nav-link href="#prepare">账号准备</a>
+    <a data-nav-link href="#chatgpt-account">注册与订阅ChatGPT</a>
+    <a data-nav-link href="#team-rollout">公司/团队落地</a>
+    <a data-nav-link href="#download">下载Codex</a>
+    <a data-nav-link href="#beginner">入门使用</a>
+    <a data-nav-link href="#advanced">进阶使用</a>
+  </aside>
   <header class="hero" id="top">
     <div class="container">
       <div class="row align-items-center g-4">
@@ -46,7 +57,7 @@
             <img class="codex-logo" src="assets/img/brand/codex-logo.png" alt="Codex logo">
             <div class="codex-intro-text">
               <h2 class="h4 fw-bold mb-2">Codex 是什么？</h2>
-              <p class="mb-0">Codex 已经从一款AI编程工具进化为面向工作任务与软件开发的 全能AI 助手了。它可以帮你写代码、做PPT、做Excel表格、写Word报告、操作浏览器甚至制作视频。</p>
+              <p class="mb-0">Codex 已经从一款AI编程工具进化为面向工作任务与软件开发的全能AI助手。它可以帮你写代码、做PPT、做Excel表格、写Word报告、操作浏览器甚至制作视频。</p>
             </div>
           </div>
         </div>
@@ -55,20 +66,22 @@
   </header>
 
   <main>
+    <section class="codex-path-choice" aria-label="Codex 两种登录方式"><div class="container"><div class="path-choice-card"><div class="path-choice-title"><div><span>使用须知</span><h2>Codex 有两种登录方式</h2></div></div><div class="path-choice-grid"><a class="path-choice-item path-choice-recommended" href="#chatgpt-account"><span class="path-choice-badge">推荐上手</span><h3><i class="bi bi-chat-dots"></i> ChatGPT 登录</h3><ul><li>适合从 0 到 1 上手</li><li>通过 ChatGPT 账号和套餐权限使用</li><li>界面更直观，适合大多数日常任务</li><li><strong>本手册优先推荐这种更直观友好的方式</strong></li></ul></a><a class="path-choice-item" href="#apikey-login-flow"><span class="path-choice-badge">补充方式</span><h3><i class="bi bi-key"></i> API Key 登录</h3><ul><li>适合已有 OpenAI Platform 账号</li><li>按 API 用量计费</li><li>更偏开发、自动化或按量调用场景</li><li>补充路径，后文简单说明</li></ul></a></div><p class="path-choice-hint"><i class="bi bi-shield-exclamation"></i><span><strong>温馨提示：</strong>ChatGPT/Codex/OpenAI API 目前主要适用于 OpenAI 支持地区的网络和账号环境，中国内地员工如需使用，应由公司统一评估合规工具、网络环境、数据安全和账号管理方式，不建议个人自行绕过地区限制使用。拿不准的可以先咨询 IT 部门/法务部。</span></p></div></div></section>
     <section class="py-5 section-anchor" id="overview" data-section>
       <div class="container">
         <div class="section-title">
           <div class="kicker">速览</div>
-          <h2>这份手册按 6 个章节学习</h2>
-          <p>点击下面任意步骤，可以直接跳到对应章节。建议从速览开始，按账号、订阅、下载、入门、进阶的顺序学习。</p>
+          <h2>这份手册按 7 个章节学习</h2>
+          <p>点击下面任意步骤，可以直接跳到对应章节。建议从速览开始，按账号、订阅、团队落地、下载、入门、进阶的顺序学习。</p>
         </div>
         <div class="flow-line compact-flow overview-flow">
           <a class="flow-step" href="#overview"><span class="num">1</span><strong>速览</strong><span>先看完整学习路径和官方入口。</span></a>
-          <a class="flow-step" href="#prepare"><span class="num">2</span><strong>账号准备</strong><span>准备邮箱、手机号、Apple Account 和公司授权。</span></a>
+          <a class="flow-step" href="#prepare"><span class="num">2</span><strong>账号准备</strong><span>优先准备 Gmail、美国区 Apple Account 和手机号验证。</span></a>
           <a class="flow-step" href="#chatgpt-account"><span class="num">3</span><strong>注册与订阅ChatGPT</strong><span>完成 ChatGPT 注册，并确认套餐权限。</span></a>
-          <a class="flow-step" href="#download"><span class="num">4</span><strong>下载Codex</strong><span>从中文 Codex 页面查看桌面入口。</span></a>
-          <a class="flow-step" href="#beginner"><span class="num">5</span><strong>入门使用</strong><span>认识界面、权限、模型、额度和常用模块。</span></a>
-          <a class="flow-step" href="#advanced"><span class="num">6</span><strong>进阶使用</strong><span>沉淀模板、合规规则和部门工作流。</span></a>
+          <a class="flow-step" href="#team-rollout"><span class="num">4</span><strong>公司/团队落地</strong><span>员工直接使用和系统自动调用两套体系落地</span></a>
+          <a class="flow-step" href="#download"><span class="num">5</span><strong>下载Codex</strong><span>从中文 Codex 页面查看桌面入口。</span></a>
+          <a class="flow-step" href="#beginner"><span class="num">6</span><strong>入门使用</strong><span>认识界面、权限、模型、额度和常用模块。</span></a>
+          <a class="flow-step" href="#advanced"><span class="num">7</span><strong>进阶使用</strong><span>沉淀模板、合规规则和部门工作流。</span></a>
         </div>
         <div class="row g-3 mt-4">
           <div class="col-md-6 col-xl-4"><a class="quick-link" href="https://chatgpt.com" target="_blank" rel="noopener"><i class="bi bi-chat-dots"></i><h3 class="h5 mt-2">ChatGPT 官网</h3><p class="mb-0 text-muted">登录、注册、使用 ChatGPT 的主入口。</p></a></div>
@@ -85,44 +98,185 @@
       <div class="container">
         <div class="section-title">
           <div class="kicker">账号准备</div>
-          <h2>先把账号和验证方式准备好</h2>
-          <p>优先使用公司指定账号。如果公司尚未统一开通，可先了解个人账号准备流程。</p>
+          <h2>准备好注册ChatGPT所需账号</h2>
+          <p>优先使用 Gmail 账号注册 ChatGPT，没有 Gmail 账号可前往 <a href="https://accounts.google.com" target="_blank" rel="noopener">Google 官网</a> 注册。</p>
         </div>
-        <div class="row g-4 align-items-stretch">
-          <div class="col-lg-7">
-            <div class="row g-3">
-              <div class="col-md-6"><div class="step-card"><h3><span class="step-number">A</span> Gmail/邮箱</h3><ul><li>用于接收 ChatGPT 注册验证码。</li><li>可使用 Gmail，也可使用其他常用邮箱。</li><li>建议绑定手机号和备用邮箱，方便找回。</li></ul></div></div>
-              <div class="col-md-6"><div class="step-card"><h3><span class="step-number">B</span> Apple Account</h3><ul><li>仅在需要通过 App Store 下载移动端时使用。</li><li>Apple 官方称 Apple ID 现为 Apple Account。</li><li>地区、付款信息按 Apple 官方规则填写，不做规避指导。</li></ul></div></div>
-              <div class="col-md-6"><div class="step-card"><h3><span class="step-number">C</span> 手机号</h3><ul><li>用于账号安全验证或找回。</li><li>不要使用他人手机号长期绑定。</li><li>验证码不要转发给任何人。</li></ul></div></div>
-              <div class="col-md-6"><div class="step-card"><h3><span class="step-number">D</span> 公司申请</h3><ul><li>部门确有使用需求时，由主管统一申请。</li><li>说明使用场景、人数、周期和数据类型。</li><li>涉及敏感数据先咨询 IT/法务。</li></ul></div></div>
-            </div>
+        <div class="row g-3 account-card-row">
+          <div class="col-lg-4 col-md-6"><div class="step-card account-step-card"><h3><span class="step-number">A</span> Gmail</h3><ul><li><strong>优先用 Gmail 注册 ChatGPT。</strong></li><li>手机端 Gmail 提前登录，方便辅助验证。</li><li>需要连接外网。</li></ul></div></div>
+          <div class="col-lg-4 col-md-6"><div class="step-card account-step-card"><h3><span class="step-number">B</span> Apple Account</h3><ul><li><strong>前提：美国区 Apple Account。</strong></li><li>用于 App Store、移动端或相关入口。</li><li>需要连接外网。</li></ul></div></div>
+          <div class="col-lg-4 col-md-12"><div class="step-card account-step-card"><h3><span class="step-number">C</span> 手机号</h3><ul><li><strong>根据当前网络 IP 所在地区限定区号；公司外网 IP 是台湾。</strong></li><li>用于安全验证、找回或双重验证。</li><li>需要连接外网。</li></ul></div></div>
+        </div>
+        <div class="visual-panel account-summary-panel mt-3"><div class="browser-mock"><div class="mock-top"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="address">accounts.google.com / account.apple.com</span></div><div class="mock-body"><h3 class="h5">账号准备清单</h3><p class="mock-note">准备好以上三个选项中的任意一项，就可以注册 ChatGPT。</p><div class="login-options-mock" aria-label="ChatGPT 登录或注册选项示意图">
+  <button class="login-close" type="button" aria-label="关闭">×</button>
+  <h3>登录或注册</h3>
+  <p>你将获得更加智能的回复并能上传文件、图片等内容。</p>
+  <div class="login-option"><span class="login-icon google-icon">G</span> 使用 Google 账户继续</div>
+  <div class="login-option"><i class="bi bi-apple"></i> 使用 Apple 账户继续</div>
+  <div class="login-option"><i class="bi bi-telephone"></i> 使用电话号码继续</div>
+  <div class="login-divider"><span></span><em>或</em><span></span></div>
+  <div class="login-email">电子邮件地址</div>
+  <div class="login-continue">继续</div>
+</div></div></div></div>
+        <div class="api-key-note-card mt-3">
+          <div class="api-key-note-icon"><i class="bi bi-key"></i></div>
+          <div>
+            <h3>另一种方式：API Key 登录</h3>
+            <p>Codex 支持 ChatGPT 登录和 API Key 登录两种方式。相较于 API Key，ChatGPT 登录对大多数使用场景更友好；API Key 方式需要 OpenAI Platform 账号、API Key 和 API 计费权限。</p>
+            <p class="api-key-note-warning">API Key 是可计费凭证，不建议多人共用同一个 Key；使用前应明确用途、预算和保管方式。可前往 <a href="https://platform.openai.com/api-keys" target="_blank" rel="noopener">OpenAI Platform API Keys</a> 查看。</p>
           </div>
-          <div class="col-lg-5"><div class="visual-panel h-100"><div class="browser-mock"><div class="mock-top"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="address">accounts.google.com / account.apple.com</span></div><div class="mock-body"><h3 class="h5">账号准备清单</h3><p class="mock-note">把这三项准备好，再开始注册 ChatGPT，会少很多卡点。</p><div class="ui-chip"><i class="bi bi-envelope-check me-1"></i> 可收验证码的邮箱</div><div class="ui-chip"><i class="bi bi-phone me-1"></i> 可接收验证的手机号</div><div class="ui-chip"><i class="bi bi-person-badge me-1"></i> 公司授权或主管确认</div></div></div></div></div>
         </div>
       </div>
     </section>
 
     <section class="py-5 section-anchor" id="chatgpt-account" data-section>
       <div class="container">
-        <div class="section-title"><div class="kicker">注册与订阅ChatGPT</div><h2>先完成 ChatGPT 账号，再确认套餐权限</h2><p>如果公司已分配账号，直接按 IT 通知登录即可；套餐和价格变化很快，最终以 <a href="https://chatgpt.com/#pricing" target="_blank" rel="noopener">ChatGPT Pricing</a> 为准。</p></div>
-        <div class="row g-4 align-items-center">
-          <div class="col-lg-6"><div class="steps d-grid gap-3"><div class="step-card"><h3><span class="step-number">1</span> 打开官网</h3><p class="text-muted mb-0">进入 <a href="https://chatgpt.com" target="_blank" rel="noopener">chatgpt.com</a>，选择 Log in 或 Sign up。</p></div><div class="step-card"><h3><span class="step-number">2</span> 输入邮箱</h3><p class="text-muted mb-0">使用公司指定邮箱或个人邮箱，按页面提示完成邮箱验证。</p></div><div class="step-card"><h3><span class="step-number">3</span> 设置安全信息</h3><p class="text-muted mb-0">设置强密码，按提示完成手机号或双重验证。验证码只给自己看。</p></div><div class="step-card"><h3><span class="step-number">4</span> 检查套餐权限</h3><p class="text-muted mb-0">需要 Codex 权限时，先看套餐页面，再按公司流程向 IT 申请。</p></div></div></div>
-          <div class="col-lg-6"><div class="visual-panel"><div class="browser-mock"><div class="mock-top"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="address">https://chatgpt.com</span></div><div class="mock-body text-center"><div class="mb-3"><i class="bi bi-chat-square-dots fs-1 text-muted"></i></div><h3>Welcome to ChatGPT</h3><p class="mock-note">Sign up / Log in</p><span class="mock-button">Continue with email</span><p class="mock-note mt-3">仿截图：实际按钮位置以官网页面为准。</p></div></div></div></div>
+        <div class="section-title"><div class="kicker">注册与订阅ChatGPT</div><h2>注册并登录ChatGPT，按需订阅套餐</h2><p>订阅套餐价格最终以 <a href="https://chatgpt.com/#pricing" target="_blank" rel="noopener">ChatGPT Pricing</a> 为准。</p></div>
+        <div class="row g-4 align-items-stretch chatgpt-account-grid">
+          <div class="col-lg-6"><div class="steps d-grid gap-3"><div class="step-card"><h3><span class="step-number">1</span> 打开官网</h3><p class="text-muted mb-0">进入 <a href="https://chatgpt.com" target="_blank" rel="noopener">chatgpt.com</a>，选择 Log in 或 Sign up。</p></div><div class="step-card"><h3><span class="step-number">2</span> 输入邮箱</h3><p class="text-muted mb-0">选择"使用Google账号继续"，然后输入Google邮箱。<br>继续下一步，按照提示输入邮箱密码即可完成注册并自动登录。</p></div><div class="step-card"><h3><span class="step-number">3</span> 设置安全信息</h3><p class="text-muted mb-0">设置强密码，按提示完成手机号或双重验证。验证码只给自己看。</p></div><div class="step-card"><h3><span class="step-number">4</span> 检查套餐权限</h3><p class="text-muted mb-0">套餐价格及每个套餐支持的能力如下图：Plus 已包含 Codex 编程智能体能力，可用于网页端、CLI、IDE 插件等场景，适合个人开发者或部门试点使用；如果使用频率很高、任务很复杂，再考虑 Pro。</p></div></div></div>
+          <div class="col-lg-6 plan-image-column"><figure class="plan-image-card plan-reference-card m-0">
+            <div class="plan-reference-header"><span><i class="bi bi-credit-card-2-front"></i> 套餐价格参考</span><em>以官网实时信息为准</em></div>
+            <div class="plan-reference-image"><img src="picture/chartGpt套餐.png" alt="ChatGPT 套餐详情截图" class="img-fluid plan-image"></div>
+            <figcaption>套餐截图来自本地 picture 目录，仅作内部学习展示；实际权益、价格和入口以 ChatGPT 官方套餐页面实时信息为准。</figcaption>
+          </figure></div>
+          <div class="col-12"><div class="usage-premise-card billing-usage-card"><i class="bi bi-shield-exclamation"></i><p><strong>温馨提示：</strong>ChatGPT 价格币种通常跟<b>账号</b>、<b>商店</b>、<b>付款地区</b>相关。当前显示 TWD，说明系统按台湾地区计价。OpenAI 目前不支持中国内地官方人民币订阅，也不建议使用非官方国内代付方式；公司推广应统一评估合规账号、网络、付款和数据安全方案。</p></div></div>
+          <div class="col-12">
+            <div class="method-compare-card">
+              <div class="method-compare-item method-compare-primary">
+                <h3><i class="bi bi-chat-dots"></i> ChatGPT 订阅方式</h3>
+                <p>更适合从 0 到 1 上手，界面友好，权限和套餐更容易理解。</p>
+              </div>
+              <div class="method-compare-item">
+                <h3><i class="bi bi-key"></i> API Key 方式</h3>
+                <p>适合按量调用、开发、自动化或已有 OpenAI Platform 账号的场景。</p>
+                <a href="#apikey-login-flow">查看 API Key 登录步骤</a>
+              </div>
+            </div>
+          </div>
         </div>
-        <figure class="plan-image-card soft-card p-2 m-0 mt-4">
-          <img src="picture/chartGpt套餐.png" alt="ChatGPT 套餐详情截图" class="img-fluid plan-image">
-          <figcaption class="px-3 pb-3 small text-muted">套餐截图来自本地 picture 目录，仅作内部学习展示；实际权益、价格和入口以 ChatGPT 官方套餐页面实时信息为准。</figcaption>
-        </figure>
-        <div class="alert-soft p-3 mt-3"><strong>费用提醒：</strong>不要自行用公司付款信息购买订阅。需要权限时，由部门主管统一向 IT 申请，并说明使用场景。</div>
       </div>
     </section>
 
+    <section class="py-5 section-anchor" id="team-rollout" data-section>
+      <div class="container">
+        <div class="section-title">
+          <div class="kicker">公司/团队落地</div>
+          <h2>两套体系，按场景选择管理方式</h2>
+          <p>ChatGPT 和 OpenAI API 都支持团队/企业级管理，但它们不是同一套体系：员工直接使用和系统自动调用，管理方式不同。</p>
+        </div>
+
+        <div class="team-rollout-card mb-4">
+          <div class="table-responsive">
+            <table class="table team-rollout-table align-middle mb-0">
+              <thead>
+                <tr>
+                  <th>场景</th>
+                  <th>团队/企业权限</th>
+                  <th>统一账号体系</th>
+                  <th>用量与权限控制</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>ChatGPT Business / Enterprise</strong><span>员工日常办公</span></td>
+                  <td>支持</td>
+                  <td>工作区、成员、角色；Enterprise/Edu 通常支持更细权限、SSO/SCIM。</td>
+                  <td>通过 ChatGPT 工作区后台管理成员、席位、Codex 权限、GPTs、Projects、Skills 等能力。</td>
+                </tr>
+                <tr>
+                  <td><strong>OpenAI API Platform</strong><span>系统调用与自动化</span></td>
+                  <td>支持</td>
+                  <td>Organization、Project、成员角色、Service Account。</td>
+                  <td>通过 Project、API Key 权限、预算、模型权限、Rate Limits、Usage Dashboard 控制。</td>
+                </tr>
+                <tr>
+                  <td><strong>内部网关 / API 代理</strong><span>公司自建统一入口</span></td>
+                  <td>可自建</td>
+                  <td>可对接 AD、LDAP、企业微信、钉钉、OA 或 SSO。</td>
+                  <td>由公司系统统一鉴权、限额、审计、脱敏、审批，再由网关调用 OpenAI API。</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-6">
+            <div class="team-rollout-card h-100">
+              <h3><i class="bi bi-people"></i> 员工日常办公</h3>
+              <p>更适合走 <strong>ChatGPT Business / Enterprise</strong>：统一建 Workspace，由管理员分配成员、席位、Codex 权限、GPTs、Apps、Projects 等能力。</p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="team-rollout-card h-100">
+              <h3><i class="bi bi-diagram-3"></i> 系统集成与自动化</h3>
+              <p>更适合走 <strong>OpenAI API + 内部网关</strong>：不把 API Key 直接发给个人电脑或写进客户端，由网关统一保管和调用。</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="team-gateway-card mt-4">
+          <h3><i class="bi bi-shield-lock"></i> 内部网关可以管什么</h3>
+          <div class="team-gateway-grid">
+            <span>公司账号登录</span>
+            <span>部门/岗位权限</span>
+            <span>个人/项目额度</span>
+            <span>模型与成本控制</span>
+            <span>敏感信息脱敏</span>
+            <span>调用审计日志</span>
+            <span>费用归集统计</span>
+            <span>API Key 安全保管</span>
+          </div>
+        </div>
+
+        <div class="team-rollout-alert mt-4">
+          <i class="bi bi-exclamation-triangle"></i>
+          <div>
+            <strong>关键提醒：</strong>ChatGPT Business/Enterprise 和 OpenAI API Platform 不是同一个账单体系。ChatGPT Business 通常不包含 API 使用量，API 需要在 Platform 单独计费，最终以官方实时说明为准。公司可采用“双轨制”：员工日常办公走 ChatGPT Business / Enterprise；系统调用和自动化走 OpenAI API + 公司内部网关。
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="py-5 section-anchor" id="download" data-section>
       <div class="container">
-        <div class="section-title"><div class="kicker">下载Codex</div><h2>新手优先走图形化桌面版</h2><p>中文 Codex 页面会展示可用入口；下载按钮位置以页面实时显示为准。</p></div>
-        <div class="row g-4 align-items-center">
-          <div class="col-lg-6"><div class="visual-panel"><div class="download-mock"><div class="mock-top"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="address">chatgpt.com/zh-Hans-CN/codex</span></div><div class="mock-body"><h3>Download Codex</h3><p class="mock-note">Turn ideas into working software with AI...</p><div class="d-flex flex-wrap gap-2"><span class="mock-button"><i class="bi bi-apple me-1"></i> macOS</span><span class="mock-button"><i class="bi bi-windows me-1"></i> Windows</span></div><div class="placeholder-img mt-3">真实截图位：后续可放入 assets/img/screenshots/download-codex.png</div></div></div></div></div>
-          <div class="col-lg-6"><div class="row g-3"><div class="col-12"><div class="step-card"><h3><span class="step-number">1</span> 打开下载页</h3><p class="text-muted mb-0"><a href="https://chatgpt.com/zh-Hans-CN/codex/" target="_blank" rel="noopener">https://chatgpt.com/zh-Hans-CN/codex/</a></p></div></div><div class="col-md-6"><div class="step-card"><h3><span class="step-number">2</span> Windows</h3><p class="text-muted mb-0">点击 Codex 区域的 Windows 下载按钮，按系统提示安装。</p></div></div><div class="col-md-6"><div class="step-card"><h3><span class="step-number">3</span> macOS</h3><p class="text-muted mb-0">点击 macOS 下载按钮。若使用 App Store 或移动端，可能需要 Apple Account。</p></div></div><div class="col-12"><div class="step-card"><h3><span class="step-number">4</span> 登录同一账号</h3><p class="text-muted mb-0">安装后用 ChatGPT 账号登录；看不到权限时，先核对套餐和公司授权。</p></div></div></div></div>
+        <div class="section-title"><div class="kicker">下载Codex</div><h2>新手优先走图形化桌面版</h2><p>Codex 桌面版可通过 Codex 中文页或 Microsoft Store 获取；下载入口和商店跳转以页面实时显示为准。</p></div>
+        <div class="row g-4 download-method-grid">
+          <div class="col-lg-6"><div class="step-card download-method-card"><h3><span class="step-number">1</span> 方式一：Codex 中文页</h3><p class="text-muted">打开 <a href="https://chatgpt.com/zh-Hans-CN/codex/" target="_blank" rel="noopener">https://chatgpt.com/zh-Hans-CN/codex/</a>，点击页面中的下载入口。</p><ul><li><strong>Windows：</strong>这种方式通常先下载一个下载器，再连接 Microsoft Store 完成安装。</li><li><strong>macOS：</strong>推荐优先使用这种方式；其他可用方式以官网实时入口为准。</li></ul></div></div>
+          <div class="col-lg-6"><div class="step-card download-method-card"><h3><span class="step-number">2</span> 方式二：Microsoft Store</h3><p class="text-muted">如果电脑是 <strong>Windows 系统</strong>，也可以直接从 Microsoft Store 搜索并安装 Codex。</p><ul><li>如果商店无法打开，先检查 Windows 账号、网络环境和公司终端策略。</li></ul></div></div>
+          <div class="col-12">
+            <div class="step-card codex-login-method-card">
+              <h3><span class="step-number">3</span> 登录方式</h3>
+              <div class="row g-4 align-items-center login-path-row" id="chatgpt-login-flow">
+                <div class="col-lg-6">
+                  <div class="login-method-box">
+                    <h4><i class="bi bi-box-arrow-in-right"></i> 使用 ChatGPT 登录</h4>
+                    <p>会跳转到 ChatGPT 登录页面，按页面提示完成登录。适合已经订阅或由公司统一开通 ChatGPT 权限的用户。</p>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="login-screenshot-flow">
+                    <figure><img src="assets/img/temp/通过ChatGPT登录Codex01.png" alt="通过 ChatGPT 登录 Codex 第一步截图"><figcaption>ChatGPT 登录入口</figcaption></figure>
+                    <div class="login-flow-arrow" aria-hidden="true"><i class="bi bi-arrow-right"></i></div>
+                    <figure><img src="assets/img/temp/通过ChatGPT登录Codex02.png" alt="通过 ChatGPT 登录 Codex 第二步截图"><figcaption>完成 ChatGPT 登录</figcaption></figure>
+                  </div>
+                </div>
+              </div>
+              <div class="row g-4 align-items-center login-path-row" id="apikey-login-flow">
+                <div class="col-lg-6">
+                  <div class="login-method-box">
+                    <h4><i class="bi bi-key"></i> 使用 API Key 登录</h4>
+                    <p>按 API token 用量计费，仍然需要 OpenAI Platform 账号和 API Key，本质上也不是“完全匿名使用”。</p>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="login-screenshot-flow">
+                    <figure><img src="assets/img/temp/通过API Key登录Codex01.png" alt="通过 API Key 登录 Codex 第一步截图"><figcaption>选择其他登录方式</figcaption></figure>
+                    <div class="login-flow-arrow" aria-hidden="true"><i class="bi bi-arrow-right"></i></div>
+                    <figure><img src="assets/img/temp/通过API Key登录Codex02.png" alt="通过 API Key 登录 Codex 第二步截图"><figcaption>填写 API Key 登录</figcaption></figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -201,7 +355,7 @@
                   <h4><i class="bi bi-cpu"></i> 模型选择</h4>
                   <ul>
                     <li><strong>推理强度</strong>：按任务复杂度选择低、中、高、超高；强度越高，Token 消耗越多。</li>
-                    <li><strong>模型切换</strong>：可按界面可用项选择 GPT-5.5、GPT-5.4、GPT-5.4-Mini 等模型。</li>
+                    <li><strong>模型切换</strong>：可按界面可用项选择 GPT-5.5、GPT-5.4、GPT-5.4-Mini 等模型；如需接入 Claude、DeepSeek、通义、豆包等模型，可以通过配置指向支持 Responses API 或 Chat Completions API 的模型/Provider，也支持自定义 model_provider。</li>
                     <li><strong>速度</strong>：标准/快速。快速通常响应更快，但可能增加约 1.5 倍 Token 消耗。</li>
                   </ul>
                   <img class="feature-inline-image" src="assets/img/screenshots/model-menu.svg" alt="Codex 模型选择下拉菜单示意图">
